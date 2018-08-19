@@ -1,11 +1,12 @@
 Prorotype of real project in NextJS.
+==================================================
 
 
 Install node modules:
 
-npm install
+> npm install
 
 Run applicaton
 
-npm run dev
+> npm run dev
 
