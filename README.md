@@ -6,7 +6,7 @@ Install node modules:
 
 > npm install
 
-Run applicaton
+Run applicaton:
 
 > npm run dev
 
