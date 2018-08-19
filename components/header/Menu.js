@@ -1,16 +1,21 @@
 import React from "react";
 import Link from "next/link";
+import Container from 'muicss/lib/react/container';
+
+import Divider from 'muicss/lib/react/divider';
 
 export default class extends React.Component {
   render() {
     return (
-      <div className="menu">
+      <Container className="mui--text-left">
+      {/* <div className="menu"> */}
         <ul className="menu_list">
           <li className="menu_item">
             <Link href="/">
               <a>Головна</a>
             </Link>
           </li>
+          {/* <span className="mui--divider-right">Content 1&nbsp;</span> */}
           <li className="menu_item">
             <Link href="/services">
               <a>Наші послуги</a>
@@ -32,7 +37,8 @@ export default class extends React.Component {
             </Link>
           </li>
         </ul>
-      </div>
+      {/* </div> */}
+      </Container>
     );
   }
 }
